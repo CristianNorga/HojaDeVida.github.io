@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  min-width: 100vw;
+  min-height: 100vh;
+  position: relative;
+}
+
+.nav {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+}
+
+.main {
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+}
+
+.content {
+  background-color: green;
+  height: 50px;
+  width: 50px;
+}
+
+.footer {
+  margin-top: auto;
+  background-color: yellow;
+  height: 50px;
+  width: 100vw;
+  margin-left: 200px;
+}
+/*# sourceMappingURL=app.css.map */
