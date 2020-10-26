@@ -1,0 +1,70 @@
+/* ----------------------------- *\
+ |              $Var             | */
+/* ----------------------------- *\ */
+@import url(https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,600;0,800;1,200;1,300;1,600;1,800&display=swap);
+/*-------Branding colors */
+/*-------Typography */
+/*-------Part */
+/*-------Textures */
+/*-------Media */
+/*-------Grids */
+/*-------Constant */
+.nav {
+  background-color: #005a87;
+  height: 51px;
+  margin-left: 15.6%;
+  width: 84.4%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__bar {
+  display: flex;
+  margin: 8px 12px;
+  align-items: center;
+}
+
+.nav__a svg {
+  font-size: 25px;
+  color: #f8f9fa;
+}
+
+.nav__account {
+  padding: 6px 0px;
+  width: 260px;
+  display: grid;
+  grid-template: 100%/20% 80%;
+}
+
+.nav__profile {
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(32, 201, 151, 0.16), 0 3px 6px rgba(32, 201, 151, 0.23) !important;
+}
+
+.nav__profile img {
+  position: absolute;
+  width: 2.5rem;
+  object-fit: contain;
+}
+
+.nav__identity {
+  display: grid;
+  grid-template-rows: repeat(2, 50%);
+  grid-template-columns: 100%;
+}
+
+.nav__id {
+  font-weight: 600;
+  color: #f8f9fa;
+}
+
+.nav__name {
+  font-weight: 400;
+  color: #f8f9fa;
+}
+/*# sourceMappingURL=Nav.css.map */

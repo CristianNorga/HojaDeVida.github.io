@@ -1,0 +1,16 @@
+// pie de pagina
+@import ../../var
+@import ../../functions
+@import ../../mixin
+
+.footer
+    display: flex
+    flex-flow: row wrap
+    justify-content: space-between
+    padding: 1rem 1rem
+    background-color: $colorTx2
+    margin-top: auto
+    height: map-get($footer, "height")
+    outline: 2px solid rgba(67, 142, 105, 0.3)
+    margin-left: map-get($footer, "margin-left")
+    width: map-get($nav,"width")

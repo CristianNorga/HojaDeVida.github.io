@@ -1,0 +1,78 @@
+@import ../var
+@import ../functions
+@import ../mixin
+
+.containerError
+    display: flex
+    justify-content: center
+    margin-top: 5%
+.Error404
+    float: left
+    text-align:center
+    &__svg
+        width: 500px
+        height: 176px
+        text-align: center
+        fill: $color3
+    &__letters
+        // font-family: ?
+        font-size: 72.0285px
+    &__path-curt
+        fill: $color3
+    &__path-complete
+        fill: $color3
+        filter: url(#blurFilter4)
+    &__growingCircle
+        animation: out 2s infinite ease-out
+        fill: $color3
+
+.errorMessage
+    max-width: 323px
+    display: flex
+    flex-direction: column
+    padding-top: 50px
+    &__minIcon
+        font-size: 25px
+        color: $warning
+    &__backLink
+        color: $color3
+        margin-top: 28px
+    &__backLink:before
+        content: "["
+        margin: 0 50px 0 0
+    &__backLink:after
+        content: "]"
+        margin: 0 0 0 50px
+    &__backLink:after, &__backLink:before
+        color: $warning
+        font-size: 20px
+        -webkit-animation-name: opacity
+        -webkit-animation-duration: 2s
+        -webkit-animation-iteration-count: infinite
+        -webkit-animation-name: opacity
+        animation-name: opacity
+        -webkit-animation-duration: 2s
+        animation-duration: 2s
+        -webkit-animation-iteration-count: infinite
+        animation-iteration-count: infinite
+
+@-webkit-keyframes opacity
+  0%, 100%
+    opacity: 0
+
+  50%
+    opacity: 1
+
+@keyframes opacity
+  0%, 100%
+    opacity: 0
+
+  50%
+    opacity: 1
+
+@keyframes out
+    0% { r: 1;  opacity: 0.9 ;}
+    25%{ r: 5;  opacity: 0.3 ;}
+    50%{ r: 10; opacity: 0.2 ;}
+    75%{ r: 15; opacity:0.1;}
+    100% { r: 20; opacity:0;}

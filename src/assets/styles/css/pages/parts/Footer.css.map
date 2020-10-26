@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "ACAA;qCACqC;AACrC,sCAAsC;AACtC,OAAO,CAAC,4HAAI;AAEZ,2BAA2B;AAO3B,sBAAsB;AAKtB,gBAAgB;AAMhB,oBAAoB;AAuBpB,iBAAiB;AASjB,iBAAiB;AAOjB,oBAAoB;ADzDpB,AAAA,OAAO,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,QAAQ;EACnB,eAAe,EAAE,aAAa;EAC9B,OAAO,EAAE,SAAS;EAClB,gBAAgB,ECKT,OAAO;EDJd,UAAU,EAAE,IAAI;EAChB,MAAM,ECSyB,MAAM;EDRrC,OAAO,EAAE,GAAG,CAAC,KAAK,CAAC,uBAAuB;EAC1C,WAAW,ECO0C,KAAK;EDN1D,KAAK,ECGM,KAAK;CDHe",
+    "sources": [
+        "sass/pages/parts/Footer.sass",
+        "sass/_var.sass",
+        "sass/_functions.sass",
+        "sass/_mixin.sass"
+    ],
+    "names": [],
+    "file": "Footer.css"
+}

@@ -1,0 +1,18 @@
+.container
+    background-color: gray
+    margin: 10px
+    width: 500px
+    height: 500px
+
+.link--blue
+    color: $color3
+
+.separator
+    @include separator($color3,1,1,1,16,"normal")
+    &--reverse
+        @include separator($color3,12,3,13,18,"reverse")
+
+.separator2
+    width: 88%
+    background-color: $color3
+    height: 5px;

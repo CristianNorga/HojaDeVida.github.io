@@ -1,0 +1,64 @@
+/* ----------------------------- *\
+ |              $Var             | */
+/* ----------------------------- *\ */
+@import url(https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,600;0,800;1,200;1,300;1,600;1,800&display=swap);
+/*-------Branding colors */
+/*-------Typography */
+/*-------Part */
+/*-------Textures */
+/*-------Media */
+/*-------Grids */
+/*-------Constant */
+.document {
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f6f6;
+  min-height: 86.2px;
+  margin-left: 15.6%;
+  width: 84.4%;
+}
+
+.docHeader {
+  width: 100%;
+  max-height: 4.2rem;
+  padding: 15px .5rem;
+  background-color: #f8f9fa;
+}
+
+.docHeader__container {
+  padding-right: 7.5px;
+  padding-left: 7.5px;
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: repeat(2, 50%);
+}
+
+.docHeader__title {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.docHeader__h1 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.docHeader__breadCrump {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.docHeader__ol {
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  float: right !important;
+}
+
+.docBody {
+  width: auto;
+  min-height: 36.6rem;
+  display: flex;
+  flex-direction: column;
+}
+/*# sourceMappingURL=Document.css.map */
