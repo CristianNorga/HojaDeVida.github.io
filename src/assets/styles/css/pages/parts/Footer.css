@@ -1,0 +1,24 @@
+/* ----------------------------- *\
+ |              $Var             | */
+/* ----------------------------- *\ */
+@import url(https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,600;0,800;1,200;1,300;1,600;1,800&display=swap);
+/*-------Branding colors */
+/*-------Typography */
+/*-------Part */
+/*-------Textures */
+/*-------Media */
+/*-------Grids */
+/*-------Constant */
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  background-color: #f8f9fa;
+  margin-top: auto;
+  height: 3.3rem;
+  outline: 2px solid rgba(67, 142, 105, 0.3);
+  margin-left: 15.6%;
+  width: 84.4%;
+}
+/*# sourceMappingURL=Footer.css.map */

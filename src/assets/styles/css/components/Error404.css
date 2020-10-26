@@ -1,0 +1,116 @@
+/* ----------------------------- *\
+ |              $Var             | */
+/* ----------------------------- *\ */
+@import url(https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,600;0,800;1,200;1,300;1,600;1,800&display=swap);
+/*-------Branding colors */
+/*-------Typography */
+/*-------Part */
+/*-------Textures */
+/*-------Media */
+/*-------Grids */
+/*-------Constant */
+.containerError {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.Error404 {
+  float: left;
+}
+
+.Error404__svg {
+  width: 500px;
+  height: 176px;
+  text-align: center;
+  fill: #20c997;
+}
+
+.Error404__letters {
+  font-size: 72.0285px;
+}
+
+.Error404__path-curt {
+  fill: #20c997;
+}
+
+.Error404__path-complete {
+  fill: #20c997;
+  filter: url(#blurFilter4);
+}
+
+.Error404__growingCircle {
+  animation: out 2s infinite ease-out;
+  fill: #20c997;
+}
+
+.errorMessage {
+  max-width: 323px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.errorMessage__minIcon {
+  font-size: 25px;
+  color: #ffc107;
+}
+
+.errorMessage__backLink {
+  color: #20c997;
+  margin-top: 28px;
+}
+
+.errorMessage__backLink:before {
+  content: "[";
+  margin: 0 50px 0 0;
+}
+
+.errorMessage__backLink:after {
+  content: "]";
+  margin: 0 0 0 50px;
+}
+
+.errorMessage__backLink:after, .errorMessage__backLink:before {
+  color: #ffc107;
+  font-size: 20px;
+  -webkit-animation-name: opacity;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: opacity;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes opacity {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes out {
+  0% {
+    r: 1;
+    opacity: 0.9;
+  }
+  25% {
+    r: 5;
+    opacity: 0.3;
+  }
+  50% {
+    r: 10;
+    opacity: 0.2;
+  }
+  75% {
+    r: 15;
+    opacity: 0.1;
+  }
+  100% {
+    r: 20;
+    opacity: 0;
+  }
+}
+/*# sourceMappingURL=Error404.css.map */

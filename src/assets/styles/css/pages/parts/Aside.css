@@ -1,0 +1,80 @@
+/* ----------------------------- *\
+ |              $Var             | */
+/* ----------------------------- *\ */
+@import url(https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,600;0,800;1,200;1,300;1,600;1,800&display=swap);
+/*-------Branding colors */
+/*-------Typography */
+/*-------Part */
+/*-------Textures */
+/*-------Media */
+/*-------Grids */
+/*-------Constant */
+.main {
+  background-color: #f8f9fa;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  width: 15.6%;
+  box-shadow: 9px 50px 17px 2px rgba(0, 0, 0, 0.75);
+}
+
+.main__head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 51px;
+  margin: 0px;
+  border-bottom: 1.5px solid #212529;
+}
+
+.main__head h2 {
+  font-weight: 800;
+  margin-bottom: 0;
+  font-size: 2em;
+}
+
+.main__body {
+  padding: 0.8rem 0.5rem 0px 0.5rem;
+}
+
+.main__ul {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.main__li {
+  margin-bottom: .8rem;
+}
+
+.main__a {
+  height: 3rem;
+  padding: .5rem 1rem;
+  border-radius: .25rem;
+  display: grid;
+  grid-template: 100%/20% 50% 30%;
+  color: #005a87;
+}
+
+.main__a--actived {
+  height: 3rem;
+  padding: .5rem 1rem;
+  background-color: #005a87;
+  border-radius: .25rem;
+  display: grid;
+  grid-template: 100%/20% 50% 30%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  color: #f8f9fa;
+}
+
+.main__icon {
+  padding-right: 0.4rem;
+  font-size: 25px;
+  justify-self: center;
+  align-self: center;
+}
+
+.main__text {
+  align-self: center;
+}
+/*# sourceMappingURL=Aside.css.map */
